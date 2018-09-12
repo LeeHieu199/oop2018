@@ -16,14 +16,7 @@ public class Student {
     public void setGroup(String group){this.group = group;}
 
     public  String getEmail(){return email;}
-    public void setEmail(String email)
-    {
-        if(email == null || email.isEmpty())
-        {
-        this.email = "Group không hợp lệ!";
-        }
-    else this.email = email;
-    }
+    public void setEmail(String email){ this.email = email;}
 
     // TODO: khai báo các thuộc tính cho Student
 
