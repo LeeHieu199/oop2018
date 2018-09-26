@@ -18,9 +18,6 @@ public class Task1 {
         else return fibonacci(n-1) + fibonacci(n-2);
 
     }
-
-
-
     public static void main(String[] args)
     {
         int a=5,b=40;

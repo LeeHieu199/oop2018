@@ -26,11 +26,14 @@ class Teacher{
     public void setEmail(String email){
         this.Email = email;
     }
+    public void Teach(){
+        System.out.println("The teacher teaches" + this.Subject);
+    }
 }
 class Cat{
     private String Name;
     private String Color;
-    private Int Weight;
+    private int Weight;
 
     public String getName() {
         return Name;
@@ -48,19 +51,18 @@ class Cat{
         this.Color = color;
     }
 
-    public Int getWeight() {
+    public int getWeight() {
         return Weight;
     }
 
-    public void setWeight(Int weight) {
+    public void setWeight(int weight) {
         this.Weight = weight;
     }
-    public void Meokeu{System.out.println("Meow Meow");}
+    public void Meokeu(){System.out.println("Meow Meow");}
     public boolean Tamthe(){
-        if Color.equals("Tam the") return true;
+        if (Color.equals("Tam the")) return true;
         return false;
     }
-    public
 }
 class Laptop{
     private String Name;
@@ -94,5 +96,5 @@ class Laptop{
         if (money>= this.Price) return true;
         return false;
     }
-    public boolean 
+
 }
