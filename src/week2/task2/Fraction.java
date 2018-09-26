@@ -37,7 +37,7 @@ public class Fraction {
         Fraction ps = new Fraction(1,2);
         ps.Numerator = this.getNumerator() * other.getDenominator() - other.getNumerator() * this.getDenominator();
         ps.Denominator = this.getDenominator() * other.getDenominator();
-        return null;
+        return ps;
     }
 
     public Fraction multiply(Fraction other) {
@@ -45,7 +45,7 @@ public class Fraction {
         Fraction ps = new Fraction(1,2);
         ps.Numerator = this.getNumerator() * other.getNumerator();
         ps.Denominator = this.getDenominator() * other.getDenominator();
-        return null;
+        return ps;
     }
 
     public Fraction divide(Fraction other) {
@@ -53,7 +53,7 @@ public class Fraction {
         Fraction ps = new Fraction(1,2);
         ps.Numerator = this.getNumerator() * other.getDenominator();
         ps.Denominator = this.getDenominator() * other.getNumerator();
-        return null;
+        return ps;
     }
     public boolean equals(Object obj){
         Fraction ps = (Fraction) obj;
