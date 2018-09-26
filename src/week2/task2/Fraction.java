@@ -78,6 +78,7 @@ public class Fraction {
         System.out.println(Tru.Inphanso());
         System.out.println(Nhan.Inphanso());
         System.out.println(Chia.Inphanso());
+        System.out.println(ps1.equals(ps2));
 
     }
 }
