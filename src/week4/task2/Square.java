@@ -37,4 +37,14 @@ public class Square extends Rectangle {
     public void setSide(double side){
         super.setLength(side);
     }
+    //ghi đè lên kích thước lớp hcn
+    @Override
+    public void setWidth(double side){
+         super.setWidth(side);
+    }
+
+    @Override
+    public void setLength(double length) {
+        super.setLength(length);
+    }
 }

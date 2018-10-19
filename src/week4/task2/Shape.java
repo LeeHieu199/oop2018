@@ -65,7 +65,7 @@ public class Shape {
         Circle  Hinhtron = new Circle();
         Rectangle HCN = new Rectangle();
         Square Hinhvuong = new Square();
-        System.out.println("Diện tích hình tròn là " + Hinhtron.getArea());
+        System.out.println("Diện tích hình tròn là " + Hinhtron.getPerimeter());
         System.out.println("Chu vi hình chữ nhật là "+ HCN.getPerimeter());
         System.out.println("Chu vi hình vuông là "+ Hinhvuong.getPerimeter());
 
