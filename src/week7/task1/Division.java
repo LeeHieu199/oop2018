@@ -1,15 +1,15 @@
 package week7.task1;
 
-public class Addition extends BinaryExpression{
+public class Division extends BinaryExpression{
     private Expression left;
     private Expression right;
 
     /**
-     * hàm khởi tạo có 2 tham số
-     * @param left là số thứ nhất
+     * hàm khởi tạo có 2 biến
+     * @param left số thứ nhất
      * @param right số thứ 2
      */
-    public Addition(Expression left, Expression right){
+    public Division(Expression left, Expression right){
         this.left = left;
         this.right = right;
     }
@@ -25,10 +25,10 @@ public class Addition extends BinaryExpression{
     }
     @Override
     public String toString(){
-        return this.left.toString() + this.right.toString();
+        return this.left.toString() + "/" + this.right.toString();
     }
     @Override
     public int Evaluate(){
-        return this.left.Evaluate() + this.right.Evaluate();
+        return this.left.Evaluate() / this.right.Evaluate();
     }
 }
